@@ -1,0 +1,179 @@
+
+// Base
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'acumin-pro', Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: 300;
+  line-height: 1.666666666666667;
+  // letter-spacing: 0.075em;
+  @media (min-width: 500px) {
+    font-size: 1.125em;
+    font-weight: 200;
+  }
+}
+
+h1, h2, h3, h4 {
+  // margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  // margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {font-size: 3.375em;}
+
+h3 {font-size: 2.25em;}
+
+h4 {font-size: 1.5em;}
+
+small, .font_small {font-size: 0.667em;}
+
+form {
+  font-size: 0.9em;
+}
+
+h1 {
+  @media (min-width: 768px) {
+    font-size: 60px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+h3, h4 {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+h5, h6 {
+  font-weight: 600;
+}
+
+label {
+  font-weight: 300;
+}
+
+
+
+
+
+// header
+
+.st-navbar ul li a{
+  font-size: 0.9em;
+	font-weight: 300;
+	// letter-spacing: 0.1em;
+}
+
+
+.logo1 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    @media (min-width: 768px) {
+      font-size: 1.6rem;
+    }
+}
+
+.logo2 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    @media (min-width: 768px) {
+      font-size: 0.9rem;
+    }
+}
+
+
+// Slider
+
+.home-carousel-left,
+.home-carousel-right {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.carousel-caption h1 {
+  font-size:16px;
+  line-height:27px;
+  letter-spacing:2px;
+  font-weight:100;
+  @media (min-width: 768px) {
+    font-size:26px;
+  }
+  @media (min-width: 1200px) {
+    font-size:46px;
+  }
+}
+
+.carousel-caption h2 {
+  font-size:31px;
+  font-weight:600;
+  margin-top:0px;
+  letter-spacing:2px;
+  margin-bottom:20px;
+  @media (min-width: 768px) {
+    font-size:51px;
+  }
+  @media (min-width: 992px) {
+    font-size:81px;
+    font-weight:100;
+  }
+}
+
+.carousel-caption {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+
+
+// Service Section
+
+.st-service h2{
+  font-size: 16px;
+}
+
+
+
+// Testimonials Section
+
+.st-testimonials p{
+  font-style: italic;
+}
+
+.st-testimonials .client-info span{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+// Contact Section
+
+.contact-icon,
+.contact-detail {
+    font-size: 1em;
+}
+
+
+
+// Footer
+
+.footer-social-icons a{
+  font-size: 16px;
+}

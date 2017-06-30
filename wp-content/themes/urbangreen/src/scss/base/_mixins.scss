@@ -1,0 +1,13 @@
+@mixin body-padding() {
+  padding: 40px 0;
+	@media (min-width: 768px) {
+		padding: 107px;
+	}
+}
+
+@mixin nav-height-margin() {
+  margin-top: 40px;
+	@media (min-width: 768px) {
+		margin-top: 80px;
+	}
+}
